@@ -1,0 +1,120 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+body {
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title-one {
+    color: rgb(30, 65, 205);
+    text-align: center;
+    font-size: 50px;
+}
+
+.title-two {
+    color: crimson;
+
+}
+
+.title-three {
+    color: rgb(98, 232, 232);
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+
+.form {
+    background-color: beige;
+    padding: 10px;
+    width: 400px;
+    text-align: center;
+    height: 400px;
+}
+
+.label {
+    display: block;
+    font: bold;
+    font-size: 17px;
+}
+
+.input {
+    border-radius: 5px;
+    padding: 3px;
+    margin-top: 3px;
+    width: 80%;
+    height: 20px;
+}
+
+.textarea {
+    width: 80%;
+    height: 80px;
+    border-radius: 5px;
+    margin-top: 3px;
+}
+
+.button {
+    background-color: navy;
+    color: white;
+    font-size: 18px;
+    border-radius: 3px;
+    width: 80%;
+    height: 60px;
+    margin-top: 3px;
+}
+
+.button:hover {
+    background-color: rgb(17, 17, 182);
+}
+
+
+.container-two {
+    background-color: beige;
+    padding: 10px;
+    width: 400px;
+    height: 200px;
+    margin-top: 5px;
+}
+
+.error {
+    background-color: crimson;
+    color: white;
+    font-size: 18px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.button-two {
+    background-color: mediumspringgreen;
+    margin-top: 10px;
+    padding: 10px;
+    width: 140px;
+}
+
+.button-two:hover {
+    background-color: rgb(21, 155, 159);
+}
+
+.button-three {
+    background-color: red;
+    margin-top: 10px;
+    padding: 10px;
+    width: 140px;
+}
+
+.button-three:hover {
+    background-color: crimson;
+}
+
+.btton {
+    background-color: hotpink;
+    font-size: 18px;
+    border-radius: 3px;
+    width: 80%;
+    height: 60px;
+    margin-top: 3px;
+}
